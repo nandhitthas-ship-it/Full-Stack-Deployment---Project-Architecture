@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f5f0" />
+    <meta
+      name="description"
+      content="Thoughtful everyday essentials for your next great escape. Shop the Fieldnotes outdoor collection."
+    />
+    <title>Fieldnotes — Everyday, outside</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./src/app.js"></script>
+  </head>
+  <body>
+    <div class="announcement">
+      <span>Good things, made for the long way around.</span>
+      <span class="announcement-note">Free shipping on orders over $75</span>
+    </div>
+    <header class="site-header">
+      <a class="wordmark" href="#/" aria-label="Fieldnotes home">
+        <span class="wordmark-mark" aria-hidden="true">f.</span>
+        <span>fieldnotes</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#/" class="nav-link" data-nav="shop">Shop</a>
+        <a href="#/about" class="nav-link" data-nav="story">Our story</a>
+      </nav>
+      <a class="cart-link" href="#/cart" aria-label="Shopping bag">
+        <span class="cart-label">Bag</span>
+        <span class="cart-count" id="cart-count">0</span>
+      </a>
+    </header>
+    <main id="app" tabindex="-1"></main>
+    <footer class="site-footer">
+      <a class="footer-wordmark" href="#/">fieldnotes<span>.</span></a>
+      <p>Made for the outside. Designed for everywhere.</p>
+      <span class="footer-copy">© 2025 Fieldnotes Supply Co.</span>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
